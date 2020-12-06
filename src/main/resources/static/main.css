@@ -1,0 +1,137 @@
+ul{
+    list-style-type: none;
+}
+body{
+background-color: #f8dbd5;
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
+.mynav{
+    background-color: #f8dbd5;
+}
+.hero-title {
+    font-size: 8vw;
+    line-height:10vw;
+    margin: 0 0 2vw;
+}
+li,p,h1,h2,h3,ul,a,label,.msg{
+    color: black;
+    font-family:"Whereby Text",Georgia,serif;
+}
+.btn-round-lg{
+    border-radius: 26px !important;
+    background-color: #006654;
+    color: white;
+    width: 330px;
+    font-size: 2.5vw !important;
+}
+p {
+    font-size: 18px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+a.nav-link:hover {
+   text-decoration: underline;
+}
+.sub-heading {
+    margin: 40px auto 32px;
+    max-width: 684px;
+}
+li{
+    font-size: 20px;
+    line-height:2vw;
+}
+.change-image{
+    width: 817px;
+    height: 657px;
+    background-size: 817px 657px;
+        background-image: url(https://d2qulvgqu65efe.cloudfront.net/static/hero-desktop-88d3988e25de4f6459e4b2ec104c89e7.png);
+}
+@media only screen and (max-width: 700px) {
+    .change-image {
+        background-size: 351px 619px;
+        width: 351px;
+        height: 619px;
+        background-image: url(https://d2qulvgqu65efe.cloudfront.net/static/hero-mobile-3d4acadd48092e8b9ba86f924fb2b8dd.png);
+    }
+}
+.middle {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+label{
+    font-size: 22px;
+}
+.hero-title-small
+{
+    font-size: 6vw;
+    line-height:6vw;
+    margin: 0 0 2vw;
+}
+.bt-color{
+    background-color: #006654;
+}
+.my-btn {
+    border-radius: 22px;
+    border: 2px solid #006654;
+    background-color: #f8dbd5;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+.my-btn:hover {
+    background-color: #006654;
+    color: white;
+}
+input {
+    border: 2px solid #006654;
+    padding-left: 10px;
+    border-radius: 22px;
+}
+.form-control
+{
+    border: 2px solid #006654;
+    border-radius: 22px;
+    font-size: 22px;
+}
+.btn {
+    border-radius: 22px;
+    background-color: #006654;
+    color: white;
+    padding: 0 23px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.btn:hover
+{
+    background-color: #002921;
+}
+p.cen
+{
+    font-size: 22px;
+    text-align: center;
+}
+.align-cent
+{
+    text-align: center;
+}
+.error-image
+{
+    overflow: hidden;
+    height: 90%;
+    background-image: url(http://www.pngmart.com/files/1/Clouds-PNG-HD.png);
+    background-size: cover;
+    background-position: top left;
+}
+a{
+    font-size: 18px;
+}

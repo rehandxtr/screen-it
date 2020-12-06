@@ -1,0 +1,32 @@
+video {
+    width: 350px;
+    height: 300px;
+    border-radius:15px;
+    margin: 5px 10px;
+}
+
+
+.participant-videos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    min-height:40rem;
+    max-height: 45rem;
+    direction: rtl;
+    overflow-x: auto;
+    align-items: center;
+    justify-content: center;
+}
+.main-video > video {
+    width: inherit;
+    height: inherit;
+    border-radius: 15px;
+    margin: 2px;
+    align-items: center;
+    justify-content: center;
+}
+
+/*
+.btn {
+    background-color: white;
+}*/
